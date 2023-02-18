@@ -7,8 +7,6 @@ void menu(void)
 
 	printf("Welcome to Explore WSU\n");
 	printf("Please enter the date (MM/DD/YYYY): ");
-
-	printf("Enter the name of the song you would like to delete: ");
 	fgets(str, sizeof(str), stdin);
 
 	for (int i = 0; i < strlen(str); i++)
