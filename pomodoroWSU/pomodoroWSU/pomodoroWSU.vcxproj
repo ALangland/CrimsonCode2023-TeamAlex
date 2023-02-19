@@ -79,9 +79,12 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>Default</LanguageStandard>
     </ClCompile>
     <Link>
-      <AdditionalDependencies />
+      <AdditionalDependencies>Winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -112,7 +115,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="mainForm.hpp" />
+    <ClInclude Include="..\..\MainForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="PlayMusic.hpp" />
     <ClInclude Include="projectHead.hpp" />
     <ClInclude Include="tictactoeheader.hpp" />
@@ -130,6 +135,13 @@
   <ItemGroup>
     <Media Include="music.wav" />
     <Media Include="testAudio.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

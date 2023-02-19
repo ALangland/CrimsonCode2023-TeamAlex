@@ -5,10 +5,7 @@
 
 
 #include "projectHead.hpp"
-#include <stdio.h>
-#include <stdlib.h>
-#include <Windows.h>
-#include <random>
+
 
 void playGame();
 int isWin(int TTT[3][3], int player);

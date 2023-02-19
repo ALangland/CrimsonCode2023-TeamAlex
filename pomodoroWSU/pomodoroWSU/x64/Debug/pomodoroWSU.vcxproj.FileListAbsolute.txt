@@ -1,0 +1,2 @@
+C:\Users\magma\source\repos\----CPTS 122----\Hackathon\CrimsonCode2023-TeamAlex\pomodoroWSU\pomodoroWSU\x64\Debug\pomodoroWSU.vcxproj.AssemblyReference.cache
+C:\Users\magma\source\repos\----CPTS 122----\Hackathon\CrimsonCode2023-TeamAlex\pomodoroWSU\pomodoroWSU\x64\Debug\pomodoroWSU.vcxproj.SuggestedBindingRedirects.cache
