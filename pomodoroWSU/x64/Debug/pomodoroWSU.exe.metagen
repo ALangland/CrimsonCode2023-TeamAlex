@@ -1,3 +1,5 @@
+  pomodoroWSU.MyForm.resources - Embedded, ContainedInManifestFile, 
+  pomodoroWSU.TicTacToe1.resources - Embedded, ContainedInManifestFile, 
 ImageRuntimeVersion: v4.0.30319
 Assembly pomodoroWSU, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
 	hash=SHA1, flags=PublicKey
@@ -13,3 +15,15 @@ Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=
 	hash=None, flags=None
 Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
 	hash=None, flags=None
+Class pomodoroWSU.TicTacToe: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Hackathon.mainForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.TextBox textBox1 : Public
+    System.Windows.Forms.Label label1 : Public
+    System.Windows.Forms.Timer timer1 : Public
+  Methods:
+    InitializeComponent(): PrivateScope, Public, HideBySig

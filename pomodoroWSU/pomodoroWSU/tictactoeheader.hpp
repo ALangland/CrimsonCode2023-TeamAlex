@@ -6,11 +6,10 @@
 
 #include "projectHead.hpp"
 
+void getArray(int grid[3][3], int A1, int A2, int A3, int B1, int B2, int B3, int C1, int C2, int C3);
 
 void playGame();
-int isWin(int TTT[3][3], int player);
-void printBoard(int TTT[3][3]);
-void takeTurn(int TTT[3][3], int player);
-void aiTurn(int TTT[3][3], int player, int player2, int magic);
+int isWin(int A1, int A2, int A3, int B1, int B2, int B3, int C1, int C2, int C3, int player);
+int aiTurn(int A1, int A2, int A3, int B1, int B2, int B3, int C1, int C2, int C3);
 
 #endif

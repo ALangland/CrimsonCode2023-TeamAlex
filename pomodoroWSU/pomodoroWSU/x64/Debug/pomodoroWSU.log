@@ -1,3 +1,6 @@
-﻿  PlayMusic.cpp
+﻿  main.cpp
+C:\Users\magma\source\repos\----CPTS 122----\Hackathon\CrimsonCode2023-TeamAlex\pomodoroWSU\pomodoroWSU\main.cpp(7,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  tictactoe.cpp
+  Generating Code...
   main.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
   pomodoroWSU.vcxproj -> C:\Users\magma\source\repos\----CPTS 122----\Hackathon\CrimsonCode2023-TeamAlex\pomodoroWSU\x64\Debug\pomodoroWSU.exe

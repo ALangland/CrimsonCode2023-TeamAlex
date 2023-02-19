@@ -115,19 +115,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\MainForm.h">
+    <ClInclude Include="MyForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="PlayMusic.hpp" />
     <ClInclude Include="projectHead.hpp" />
+    <ClInclude Include="TicTacToe1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="tictactoeheader.hpp" />
-    <ClInclude Include="Timer.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="PlayMusic.cpp" />
     <ClCompile Include="tictactoe.cpp" />
-    <ClCompile Include="Timer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="infile.csv" />
@@ -142,6 +143,14 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MyForm.resx">
+      <DependentUpon>MyForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TicTacToe1.resx">
+      <DependentUpon>TicTacToe1.h</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

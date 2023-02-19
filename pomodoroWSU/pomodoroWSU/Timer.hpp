@@ -5,7 +5,7 @@
 
 #define _CRT_SECURE_NO_WARNINGS
 
-#include "projectHead.h"
+#include "projectHead.hpp"
 
 typedef struct triviaQuestion
 {

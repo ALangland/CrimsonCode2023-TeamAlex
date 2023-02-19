@@ -72,11 +72,8 @@ void trivia(void)
 
 void timer(void)
 {
-	int totalRounds = 0, copyRounds = 1, minutes = 0, seconds = 0, breakMinutes = 0;
+	int totalRounds = 4, copyRounds = 1, minutes = 0, seconds = 0, breakMinutes = 0;
 
-	printf("Welcome to the Coug StudyBot\n\nThe Coug StudyBot helps create a more focused study environment for students by utilizing the Pomodoro technique.");
-	printf("How many rounds of the Pomadoro would you like to complete: ");
-	scanf("%d", &totalRounds);
 
 	while (copyRounds <= totalRounds)
 	{

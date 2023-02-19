@@ -1,37 +1,26 @@
+
+#include "projectHead.hpp"
 #include "tictactoeheader.hpp"
-#include "MainForm.h"
+#include "MyForm.h"
+#include "TicTacToe1.h"
+#include "Timer.hpp"
+#include "PlayMusic.hpp";
 
-void main(array<String^>^ args) {
-
-
-
-
-
-
+using namespace System;
+using namespace System::Windows::Forms;
 
 
+void main(void){
 
-
-
-
-
-
-
-
-
-
-
-
-	/*
-	* FORM MAIN METHOD *
 	Application::EnableVisualStyles();
 	Application::SetCompatibleTextRenderingDefault(false);
-	FirstCppProject::MainForm form;
+	
+
+
+	Hackathon::mainForm form;
 	Application::Run(% form);
-	*/
+	
 
-
-
-
-
+	pomodoroWSU::TicTacToe game;
+	Application::Run(% game);
 }
